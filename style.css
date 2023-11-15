@@ -1,0 +1,31 @@
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#displayInput {
+    width: 16rem;
+    height: 4rem;
+}
+
+.line {
+    display: flex;
+    gap: 0rem;
+}
+
+button {
+    height: 4rem;
+    width: 4rem;
+}
+
+#plusButton {
+    height: 8rem;
+}
